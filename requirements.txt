@@ -1,0 +1,9 @@
+openai
+# leann  # Требует специальной установки (см. INSTALL_LEANN.md)
+# Рекомендуется: uv pip install leann
+# Или: git clone https://github.com/yichuan-w/LEANN.git && cd LEANN && pip install -e .
+pyyaml
+markdown
+tqdm
+python-dotenv
+typer

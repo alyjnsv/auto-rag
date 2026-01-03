@@ -1,0 +1,11 @@
+# Шаблон переменных окружения для auto-rag
+
+# OpenAI/OpenRouter для эмбеддингов
+OPENROUTER_API_KEY=your_openrouter_api_key_here
+OPENAI_API_KEY=your_openai_api_key_here
+
+# LEANN настройки (опционально)
+# LEANN работает локально, не требует API ключей
+# Индексы сохраняются в .leann/indexes/ по умолчанию
+LEANN_EMBEDDING_MODEL=facebook/contriever
+LEANN_BACKEND=hnsw
