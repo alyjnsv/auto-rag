@@ -22,7 +22,7 @@
 
 ```bash
 # Клонируйте репозиторий
-git clone https://github.com/your-username/auto-rag.git
+git clone https://github.com/alyjnsv/auto-rag.git
 cd auto-rag
 
 # Создайте виртуальное окружение
