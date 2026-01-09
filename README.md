@@ -21,22 +21,23 @@
 ### Установка
 
 ```bash
-# Клонируйте репозиторий
+# 1. Клонируйте репозиторий
 git clone https://github.com/alyjnsv/auto-rag.git
 cd auto-rag
 
-# Создайте виртуальное окружение
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# или
-venv\Scripts\activate     # Windows
-
-# Установите зависимости
-pip install -r requirements.txt
-
-# Установите LEANN (рекомендуется через uv)
+# 2. Установите uv (однократно)
 pip install uv
+
+# 3. Создайте виртуальное окружение через uv
 uv venv
+
+# 4. Активируйте его
+source .venv/bin/activate  # Linux/Mac
+# или
+.venv\Scripts\activate     # Windows
+
+# 5. Установите зависимости и LEANN
+uv pip install -r requirements.txt
 uv pip install leann
 ```
 
