@@ -36,6 +36,7 @@ pip install -r requirements.txt
 
 # Установите LEANN (рекомендуется через uv)
 pip install uv
+uv venv
 uv pip install leann
 ```
 
@@ -205,10 +206,10 @@ auto-rag/
 Все операции логируются в `logs/auto_rag.log`:
 
 ```
-2024-01-15 10:30:45 INFO Обработка папки docs/
-2024-01-15 10:30:46 INFO Обработано чанков: 7
-2024-01-15 10:30:47 INFO ✅ Создан YAML файл: docs/my_document.yaml
-2024-01-15 10:30:50 INFO ✅ LEANN индекс создан: .leann/indexes/my_document
+2025-01-15 10:30:45 INFO Обработка папки docs/
+2025-01-15 10:30:46 INFO Обработано чанков: 7
+2025-01-15 10:30:47 INFO ✅ Создан YAML файл: docs/my_document.yaml
+2025-01-15 10:30:50 INFO ✅ LEANN индекс создан: .leann/indexes/my_document
 ```
 
 ## Дополнительная документация
